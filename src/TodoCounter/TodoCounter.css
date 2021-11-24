@@ -1,0 +1,40 @@
+.todocounter {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto 30px auto;
+    padding: 12px 0 10px 0;
+    background-color: #f1f1f1;
+    color: #adadad;
+    vertical-align: center;
+}
+
+.todo-red {
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    background-image: url('../icons/fondo-counter-tareas--pendientes.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 10% top;
+    color: #fefefe;
+    font-weight: 800;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+
+}
+
+.todocounter .todo-green {
+    color: #70ca72;
+}
+
+@media(min-width:768px) {
+    .todocounter {
+        font-size: 22px;
+    }
+
+    .todocounter .todo-red {
+        width: 35px;
+        height: 35px;
+    }
+}

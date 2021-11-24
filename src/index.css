@@ -1,0 +1,25 @@
+html{
+  margin: 0;
+  padding:0;
+}
+
+body {
+  margin: 0;
+  padding:0;
+  background:#f1f1f1;
+  column-rule: rgb(46, 46, 46);
+  font-family: 'Quicksand', sans-serif, 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --fuente-roboto:'Roboto',
+  sans-serif;
+  --fuente-quick:'Quicksand',
+  sans-serif;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+

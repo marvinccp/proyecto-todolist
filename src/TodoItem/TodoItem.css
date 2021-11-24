@@ -1,0 +1,97 @@
+.TodoItem {
+    background-color: #FAFAFA;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 15px 0 15px 0;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.056);
+    border-radius: 15px;
+}
+.TodoItem-check-active {
+    background-color: #70ca71;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 15px 0 15px 0;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0);
+    border-radius: 18px;
+}
+.Todo-item-check-active{
+    background-color: #70ca7131;
+    border-radius: 20px;
+}
+
+
+.TodoItem-p {
+    margin: 5px 5px 5px 5px;
+    padding: 7px 7px 7px 14px;
+    width: calc(100% - 80px);
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.TodoItem-p--completed {
+    /* text-decoration: line-through; */
+    /* background-color: #94d19030; */
+    padding: 4px 4px;
+    border-radius: 10px;
+}
+
+
+.icon-check-item{
+    background-image: url('../icons/circular_check.svg');
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 0 5px 0 10px;
+    filter: invert(74%) sepia(31%) saturate(608%) hue-rotate(72deg) brightness(90%) contrast(91%);
+
+}
+
+.icon-check-item:hover{
+
+    filter: invert(23%) sepia(100%) saturate(2298%) hue-rotate(120deg) brightness(103%) contrast(95%);
+
+}
+
+
+.icon-trash-item{
+    display: flex;
+      background-image: url('../icons/trash.svg');
+      background-repeat: no-repeat;
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      margin: 0 10px 0 5px;
+      filter: invert(73%) sepia(51%) saturate(1249%) hue-rotate(294deg) brightness(89%) contrast(82%);
+}
+
+.icon-trash-item:hover{
+    filter: invert(21%) sepia(92%) saturate(3387%) hue-rotate(331deg) brightness(94%) contrast(84%);
+}
+
+/* .Icon-check--active {
+    color: #4caf50;
+} */
+
+/* .Icon-delete {
+    position: absolute;
+    top: 9px;
+    right: 0;
+} */
+
+/* .Icon-delete:hover {
+    color: red;
+} */
